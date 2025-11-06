@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.72.1 (2025-11-06)
+
+Full Changelog: [v0.72.0...v0.72.1](https://github.com/anthropics/anthropic-sdk-python/compare/v0.72.0...v0.72.1)
+
+### Bug Fixes
+
+* **client:** close streams without requiring full consumption ([109b771](https://github.com/anthropics/anthropic-sdk-python/commit/109b77175c844c37e6e57899a732a0ba293a2942))
+
+
+### Chores
+
+* **internal/tests:** avoid race condition with implicit client cleanup ([72767ce](https://github.com/anthropics/anthropic-sdk-python/commit/72767cebc31a9d5608f08533888a1cf69862a598))
+* **internal:** grammar fix (it's -&gt; its) ([9efe993](https://github.com/anthropics/anthropic-sdk-python/commit/9efe99371577c3ff51050aeab5d480a442577b46))
+
 ## 0.72.0 (2025-10-28)
 
 Full Changelog: [v0.71.1...v0.72.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.71.1...v0.72.0)
